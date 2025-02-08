@@ -98,7 +98,7 @@ export default function HeroGeometric({
   }
 
   return (
-    <div className="relative rounded-3xl bg-white/[0.03] border border-white/[0.08] overflow-hidden">
+    <div className="relative rounded-2xl bg-white/[0.03] border border-white/[0.08] mt-14 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/[0.05] via-transparent to-rose-500/[0.05] blur-3xl" />
 
       <div className="absolute inset-0 overflow-hidden">

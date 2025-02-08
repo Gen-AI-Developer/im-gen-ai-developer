@@ -12,7 +12,7 @@ export default function Page() {
         <div className="col-span-1 md:col-span-2 lg:col-span-2">
           <HeroGeometric badge="GENERATIVE AI DEVELOPER" title1="Let's create dance" title2="floor magic" />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 mt-14">
           <About />
           <Services />
           <Contact />
