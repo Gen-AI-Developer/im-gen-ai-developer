@@ -1,12 +1,12 @@
 import { ArrowUpRight } from "lucide-react"
 import Image from "next/image"
+import ProfilePic from "@/public/safdar.jpeg"
 
 export function Services() {
   const services = [
     {
-      title: "First Dance",
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-02-08%20at%206.54.46%20AM-x1paKuWRLl6xPScp1shRgn0VJEI1Mq.jpeg",
+      title: "Syed Safdar Ali Shah",
+      image:"@/public/safdar.jpeg",
     },
     {
       title: "Cocktail Hour",
@@ -31,7 +31,7 @@ export function Services() {
         >
           {service.image ? (
             <Image
-              src={service.image || "/placeholder.svg"}
+              src={ProfilePic}
               alt={service.title}
               width={400}
               height={300}

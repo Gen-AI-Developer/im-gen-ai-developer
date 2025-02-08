@@ -4,14 +4,14 @@ export function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <a href="/" className="font-semibold text-white/60 hover:text-white/90 text-xl font-serif ">
-            SafdarAliShah
+            SAAR 
           </a>
           <div className="flex gap-8">
             <a href="#about" className="text-sm text-white/60 hover:text-white/90">
               ABOUT
             </a>
             <a href="#weddings" className="text-sm text-white/60 hover:text-white/90">
-              WEDDINGS
+              PROJECTS
             </a>
             <a href="#contact" className="text-sm text-white/60 hover:text-white/90">
               CONTACT

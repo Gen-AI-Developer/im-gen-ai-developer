@@ -76,9 +76,9 @@ function ElegantShape({
 }
 
 export default function HeroGeometric({
-  badge = "DJ LINA",
-  title1 = "Let's create dance",
-  title2 = "floor magic",
+  badge = "OUR MISSION",
+  title1 = "Let's create Agents that",
+  title2 = "magicaly transforms lives",
 }: {
   badge?: string
   title1?: string
@@ -139,20 +139,20 @@ export default function HeroGeometric({
             animate="visible"
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.03] border border-white/[0.08] mb-8"
           >
-            <span className="text-sm text-white/60 tracking-wide">{badge}</span>
+            <span className="text-sm text-white/60 tracking-wide">OUR MISSION</span>
           </motion.div>
 
           <motion.div custom={1} variants={fadeUpVariants} initial="hidden" animate="visible">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif mb-6 tracking-tight">
-              <span className="text-white/90">{title1}</span>
+              <span className="text-white/90">creating Agents that</span>
               <br />
-              <span className={cn("text-white/60", playfair.className)}>{title2}</span>
+              <span className={cn("text-white/60", playfair.className)}>magicaly transforms lives</span>
             </h1>
           </motion.div>
 
           <motion.div custom={2} variants={fadeUpVariants} initial="hidden" animate="visible">
             <p className="text-base sm:text-lg text-white/40 mb-8 leading-relaxed font-light tracking-wide">
-              for your special day
+              Transforming healthcare through Large Language Models (LLMs) and AI.
             </p>
           </motion.div>
         </div>
